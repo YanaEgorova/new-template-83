@@ -44,7 +44,12 @@
 .prod__price, .prod__discount {
     font-size: 3rem;
 }
-
+.disable-btn {
+    pointer-events: none;
+}
+.disable-btn svg {
+    opacity: 0.3;
+}
 .prod__discount {
     color: var(--inactive);
     margin-left: 2rem;
